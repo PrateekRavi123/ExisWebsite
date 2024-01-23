@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bses Exis</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+
+  <div class="  w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left mySidebar " id="sidebar">
+    <div style="display: flex;">
+      <h3 class="w3-bar-item">BSES EXIS</h3>
+      <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="sidebar_close()" style="width: 1em;">&times;</button>
+    </div>
+    <div class="profile ">
+      <img class="profileimg img-thumbnail" src="download.png" alt="pfp">
+      <p><a>User Name</a></p>
+    </div>
+    <div class="menulist">
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search..">
+            <span class="input-group-text" id="inputGroupPrepend3"> <i class="fa fa-search" aria-hidden="true"></i>
+            </span>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="w3-bar-item w3-button nav-link active" aria-current="page" href="#">Executive Dashboard</a>
+        </li>
+        <li class="nav-item">
+          <a class="w3-bar-item w3-button nav-link active aria-current=" page" href="#">Health Dashboard</a>
+        </li>
+        <li class="nav-item">
+          <a class="w3-bar-item w3-button nav-link active aria-current=" page" href="#">Demand Dashboard</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="w3-bar-item w3-button nav-link active dropdown-toggle" data-bs-toggle="collapse" href="#list1"
+            role="button" aria-expanded="false">Energy Audit</a>
+          <ul class="collapse  nav-pills flex-column " id="list1">
+            <li class="nav-item">
+              <a class="w3-bar-item w3-button " aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="w3-bar-item w3-button " aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="w3-bar-item w3-button " aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="w3-bar-item w3-button " aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="w3-bar-item w3-button " aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="w3-bar-item w3-button " aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="w3-bar-item w3-button " aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="w3-bar-item w3-button " aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Link</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="w3-main" id="pagewrapper" style="margin-left: 250px;">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #e3f2fd;">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+          <div>
+            <ul class="navbar-nav ">
+              <li class="nav-item w3-xlarge w3-hide-large"  id="sidebarbtn"><a class="nav-link active" aria-current="page" href="#"
+                  onclick="sidebar_open()"><i class="fa fa-bars" aria-hidden="true"></i></a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search..">
+                  <span class="input-group-text" id="inputGroupPrepend3"> <i class="fa fa-search"
+                      aria-hidden="true"></i> </span>
+                </div>
+              </li>
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="#" onclick="openFullscreen()"><i
+                    class="fa fa-expand" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+    <div class="wrapper" id="wrapper">
+      <div class="content">
+        <h4>Monthly Audit</h4>
+        <div class="cm-1">
+          <form class="row gx-3 gy-2 align-items-center justify-content-between ">
+            <div class="col-sm-3">
+              <label class="form-label" for="specificSizeInputName">Select Month</label>
+              <input type="month" class="form-control" id="specificSizeInputName" placeholder="Jane Doe">
+            </div>
+            <div class="col-sm-3">
+              <label class="form-label" for="specificSizeSelect">Select Circle</label>
+              <select class="form-select" id="specificSizeSelect">
+                <option selected>Choose circle...</option>
+                <option value="1">West</option>
+                <option value="2">South</option>
+              </select>
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-primary" onclick="showgadDiv()">Submit</button>
+            </div>
+          </form>
+        </div>
+        <div class="cm-2" id="gadDiv" style="display: none;">
+          <iframe src="GridAuditDetails.html" style="height:100%; width:100%;"></iframe>
+        </div>
+        <div class="cm-3" id="feederdataDiv" style="display: none;">
+          <iframe src="FeederData.html" style="height:100%; width:100%;"></iframe>
+        </div>
+        <div class="cm-4" id="feederformDiv" style="display: none;">
+          <iframe src="FeederForm.html" style="height:100%; width:100%;"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
+\\
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div>
+    <div>Header</div>
+    <div>Content
+      <div> sidebar</div>
+      <div> maincontetnt</div>
+    </div>
+  </div>
+  
+</body>
+</html>

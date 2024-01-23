@@ -1,0 +1,91 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+::backdrop {
+    background-color: white;
+}
+
+.mySidebar {
+    color: antiquewhite;
+    display:block;
+    width: 250px;
+    z-index:5;
+    height: 100%;
+    background-color: #142a3f;
+    overflow: auto;
+    overflow-y: scroll;
+}
+
+.mySidebar::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+.profile {
+    display: flex;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+
+}
+
+.profileimg {
+    width: 20%;
+}
+
+.menulist li {
+    padding: 5px;
+}
+
+.menulist li ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    height: 100%;
+    display: flex;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+}
+
+.cm-1 {
+    border: 1px solid;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.cm-2 {
+    height: 320px;
+    margin-bottom: 5px;
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 0.25em 0 0 0;
+}
+
+.cm-3 {
+    height: 320px;
+    margin-bottom: 5px;
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 0.25em 0 0 0;
+}
+
+.cm-4 {
+    height: 280px;
+    margin-bottom: 5px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
